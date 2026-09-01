@@ -1,0 +1,21 @@
+[
+  {
+    "sha": "HEAD",
+    "author": "shalure10lure",
+    "commit": {
+      "date": "2026-09-01T14:10:18.000Z",
+      "message": "feat:añadiendo test mostrar love love cuando ningun jugador anota",
+      "url": "https://github.com/shalure10lure/PracticaTenis/commit/HEAD"
+    },
+    "stats": {
+      "total": 12,
+      "additions": 12,
+      "deletions": 0,
+      "date": "2026-09-01"
+    },
+    "coverage": 0,
+    "test_count": 1,
+    "failed_tests": 0,
+    "conclusion": "success"
+  }
+]

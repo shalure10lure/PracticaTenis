@@ -1,0 +1,24 @@
+[
+  {
+    "numPassedTests": 0,
+    "failedTests": 1,
+    "numTotalTests": 1,
+    "timestamp": 1788271722055,
+    "success": false,
+    "testId": 0
+  },
+  {
+    "numPassedTests": 1,
+    "failedTests": 0,
+    "numTotalTests": 1,
+    "timestamp": 1788271760252,
+    "success": true,
+    "testId": 0
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat:añadiendo test mostrar love love cuando ningun jugador anota",
+    "commitTimestamp": 1788271820585,
+    "testId": 0
+  }
+]
