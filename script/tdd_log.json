@@ -22,9 +22,15 @@
     "testId": 0
   },
   {
-    "commitId": "HEAD",
+    "commitId": "9af47b9cd8ac83aeea67f22320f16f91d6c70b95",
     "commitName": "fix: modificando test poninedo jest",
     "commitTimestamp": 1788271897042,
     "testId": 1
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: si jugador 1 anota 1 punto debe mostrar 15 love",
+    "commitTimestamp": 1788272654407,
+    "testId": 2
   }
 ]
