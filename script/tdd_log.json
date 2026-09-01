@@ -16,9 +16,15 @@
     "testId": 0
   },
   {
-    "commitId": "HEAD",
+    "commitId": "2d8a4b5d39957fcd64da1765dc978160768c82f1",
     "commitName": "feat:añadiendo test mostrar love love cuando ningun jugador anota",
     "commitTimestamp": 1788271820585,
     "testId": 0
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "fix: modificando test poninedo jest",
+    "commitTimestamp": 1788271897042,
+    "testId": 1
   }
 ]
