@@ -1,0 +1,55 @@
+📖 Explicación de las reglas básicas
+Puntuación de un game (juego):
+Los puntos van en este orden: Love → 15 → 30 → 40 → Game.
+Si ambos jugadores llegan a 40, se llama Deuce (iguales).
+Deuce y ventaja:
+Desde Deuce, un jugador debe ganar dos puntos seguidos para llevarse el game.
+El primer punto ganado desde Deuce da Ventaja.
+Si el rival gana el siguiente punto, vuelven a Deuce.
+Game ganado:
+Un jugador gana el game si:
+Llega a 40 y gana un punto más sin que haya Deuce, o
+Consigue ventaja y gana el siguiente punto.
+
+LISTA DE CASOS DE PRUEBA
+- empieza el set: love-love
+primer set:
+- jugador 1 anota 1 punto: 15-love
+- jugador 2 anota 1 punto : love-15
+segundo set:
+- jugador 1 anota 2 puntos: 30-love
+- jugador 2 anota 2 puntos: love-30
+- jugador 2 anota 1 punto y jugador 1 anota 1 punto: 15-15
+- jugador 1 anota 1 punto y jugador 2 anota 1 punto: 15-15
+tercer set:
+- jugador 1 anota 3 puntos: 40-love
+- jugador 2 anota 3 puntos: love-40
+- jugador 1 anota 2 punto y jugador 2 anota 1 punto: 30-15
+- jugador 2 anota 2 punto y jugador 1 anota 1 punto: 15-30
+cuarto set:
+- jugador 1 anota 4 puntos: Game for player 1
+- jugador 2 anota 4 puntos: Game for player 2
+- jugador 1 anota 3 puntos y jugador 2 anota 1 punto: 40-15
+- jugador 2 anota 3 puntos y jugador 1 anota 1 punto: 15-40
+- jugador 1 anota 2 puntos y jugador 2 anota 2 puntos: 30-30
+quinto set:
+- jugador 1 anota 4 puntos y jugador 2 anota 1 punto: Game for player 1
+- jugador 2 anota 4 puntos y jugador 1 anota 1 punto: Game for player 2
+- jugador 1 anota 3 puntos y jugador 2 anota 2 punto: 40-30
+- jugador 2 anota 3 puntos y jugador 1 anota 2 punto: 40-30
+sexto set:
+- jugador 1 anota 3 puntos y jugador 2 anota 3 puntos: Deuce
+septimo set:
+- jugador 1 anota 4 puntos y jugador 2 anota 3 puntos: Advantage Player 1
+- jugador 2 anota 4 puntos y jugador 1 anota 3 puntos: Advantage Player 2
+octavo set:
+- jugador 1 anota 5 puntos y jugador 2 anota 3 puntos: Game for player 1
+- jugador 2 anota 5 puntos y jugador 1 anota 3 puntos: Game for player 2
+- jugador 1 anota 4 puntos y jugador 2 anota 4 puntos: Deuce
+noveno set:
+- jugador 1 anota 5 puntos y jugador 2 anota 4 puntos: Advantage Player 1
+- jugador 2 anota 5 puntos y jugador 1 anota 4 puntos: Advantage Player 2
+decimo set:
+- jugador 1 anota 6 puntos y jugador 2 anota 4 puntos: Game for player 1
+- jugador 2 anota 6 puntos y jugador 1 anota 4 puntos: Game for player 2
+- jugador 1 anota 5 puntos y jugador 2 anota 5 puntos: Deuce
