@@ -94,9 +94,15 @@
     "testId": 12
   },
   {
-    "commitId": "HEAD",
+    "commitId": "7cba127d2a1046124fe19837b68549499c84c05b",
     "commitName": "feat test deberia deberia mostrar 30-30 cuando jugador 1 anoto 2 puntos y jugador 2 anoto 2 puntos",
     "commitTimestamp": 1788434755773,
     "testId": 13
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat test deberia mostrar 40-30 cuando jugador 1 anoto 3 puntos y jugador 2 anoto 2 puntos",
+    "commitTimestamp": 1788434804798,
+    "testId": 14
   }
 ]
