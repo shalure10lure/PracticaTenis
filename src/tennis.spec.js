@@ -69,7 +69,7 @@ describe("Tennis",()=>{
         tennis.jugador2 = 2;
         expect(tennis.obtenerScore()).toBe("40 - 30");
     });
-    it("deberia mostrar 30-40 cuando jugador 1 anoto 2 puntos y jugador 2 anoto 3 puntos",()=>{
+    it("deberia mostrar  cuando jugador 1 anoto 2 puntos y jugador 2 anoto 3 puntos",()=>{
         let tennis = new Tennis();
         tennis.jugador1 = 2;
         tennis.jugador2 = 3;
@@ -80,5 +80,17 @@ describe("Tennis",()=>{
         tennis.jugador1 = 3;
         tennis.jugador2 = 3;
         expect(tennis.obtenerScore()).toBe("Deuce");
+    });
+    it("deberia mostrar Game for player 1 cuando jugador 1 anoto 4 puntos y jugador 2 anoto 3 puntos",()=>{
+        let tennis = new Tennis();
+        tennis.jugador1 = 4;
+        tennis.jugador2 = 3;
+        expect(tennis.obtenerScore()).toBe("Game for player 1");
+    });
+    it("deberia mostrar Game for player 2 cuando jugador 1 anoto 3 puntos y jugador 2 anoto 4 puntos",()=>{
+        let tennis = new Tennis();
+        tennis.jugador1 = 3;
+        tennis.jugador2 = 4;
+        expect(tennis.obtenerScore()).toBe("Game for player 2");
     });
 });

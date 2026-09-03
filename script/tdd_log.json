@@ -112,9 +112,15 @@
     "testId": 15
   },
   {
-    "commitId": "HEAD",
+    "commitId": "6a4ce5b919585b5131f3df37a42dd83c3e4eb71d",
     "commitName": "feat test deberia mostrar deuce cuando jugador 1 anoto 3 puntos y jugador 2 anoto 3 puntos",
     "commitTimestamp": 1788434914531,
     "testId": 16
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat test deberia mostrar Game for player 2 cuando jugador 1 anoto 3 puntos y jugador 2 anoto 4 puntos",
+    "commitTimestamp": 1788435028406,
+    "testId": 17
   }
 ]
