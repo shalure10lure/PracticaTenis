@@ -5,6 +5,9 @@ class Tennis{
     }
     obtenerScore(){
         //si jugador 1 anota 
+        if(this.jugador1===1 && this.jugador2===2){
+            return "15 - 30";
+        }
         if(this.jugador1===1){
             return "15 - Love";
         }
@@ -29,6 +32,7 @@ class Tennis{
         if(this.jugador2===4){
             return "Game for player 2";
         }
+        
         return "Love - Love";
     }
 }
