@@ -130,9 +130,15 @@
     "testId": 18
   },
   {
-    "commitId": "HEAD",
+    "commitId": "438d27ae3327e1beede78ff64024ecdeea69b001",
     "commitName": "feat: deberia mostrar Game for player 2 cuando jugador 1 anoto 3 puntos y jugador 2 anoto 5 puntos",
     "commitTimestamp": 1788437812961,
     "testId": 19
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: añadiendo la parte de vistas",
+    "commitTimestamp": 1788438621348,
+    "testId": 20
   }
 ]
