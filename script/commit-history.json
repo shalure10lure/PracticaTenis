@@ -323,17 +323,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "eefa18777f6082196c6986c41f56404930932660",
     "author": "shalure10lure",
     "commit": {
       "date": "2026-09-03T11:30:26.000Z",
       "message": "feat test deberia mostrar Game for player 2 cuando jugador 1 anoto 3 puntos y jugador 2 anoto 4 puntos",
-      "url": "https://github.com/shalure10lure/PracticaTenis/commit/HEAD"
+      "url": "https://github.com/shalure10lure/PracticaTenis/commit/eefa18777f6082196c6986c41f56404930932660"
     },
     "stats": {
       "total": 20,
       "additions": 19,
       "deletions": 1,
+      "date": "2026-09-03"
+    },
+    "coverage": 100,
+    "test_count": 18,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "shalure10lure",
+    "commit": {
+      "date": "2026-09-03T12:14:47.000Z",
+      "message": "fix: modificando  el mensaje que deberia salir",
+      "url": "https://github.com/shalure10lure/PracticaTenis/commit/HEAD"
+    },
+    "stats": {
+      "total": 12,
+      "additions": 6,
+      "deletions": 6,
       "date": "2026-09-03"
     },
     "coverage": 100,

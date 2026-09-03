@@ -25,10 +25,10 @@ class Tennis{
             return "Deuce";
         }
         if(this.jugador1===4 && this.jugador2===3){
-            return "Game for player 1";
+            return "Advantage Player 1";
         }
         if(this.jugador1===3 && this.jugador2===4){
-            return "Game for player 2";
+            return "Advantage Player 2";
         }
         if(this.jugador1===1){
             return "15 - Love";
