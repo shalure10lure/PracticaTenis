@@ -114,12 +114,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "566f122488557fb0c0bffce0eb7f99ef7315cd19",
     "author": "shalure10lure",
     "commit": {
       "date": "2026-09-03T11:17:23.000Z",
       "message": "feat test deberia mostrar love-40 cuando jugador 2 anoto 3 puntos",
-      "url": "https://github.com/shalure10lure/PracticaTenis/commit/HEAD"
+      "url": "https://github.com/shalure10lure/PracticaTenis/commit/566f122488557fb0c0bffce0eb7f99ef7315cd19"
     },
     "stats": {
       "total": 8,
@@ -129,6 +129,25 @@
     },
     "coverage": 100,
     "test_count": 8,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "shalure10lure",
+    "commit": {
+      "date": "2026-09-03T11:18:13.000Z",
+      "message": "feat test deberia mostrar 40-love cuando jugador 1 anoto 3 puntos",
+      "url": "https://github.com/shalure10lure/PracticaTenis/commit/HEAD"
+    },
+    "stats": {
+      "total": 8,
+      "additions": 8,
+      "deletions": 0,
+      "date": "2026-09-03"
+    },
+    "coverage": 100,
+    "test_count": 9,
     "failed_tests": 0,
     "conclusion": "success"
   }

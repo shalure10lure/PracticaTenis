@@ -52,9 +52,15 @@
     "testId": 5
   },
   {
-    "commitId": "HEAD",
+    "commitId": "566f122488557fb0c0bffce0eb7f99ef7315cd19",
     "commitName": "feat test deberia mostrar love-40 cuando jugador 2 anoto 3 puntos",
     "commitTimestamp": 1788434245663,
     "testId": 6
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat test deberia mostrar 40-love cuando jugador 1 anoto 3 puntos",
+    "commitTimestamp": 1788434295719,
+    "testId": 7
   }
 ]
