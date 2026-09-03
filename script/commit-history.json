@@ -285,12 +285,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "3650a5553c5600d0b440d36e7175cb46b0f53282",
     "author": "shalure10lure",
     "commit": {
       "date": "2026-09-03T11:27:37.000Z",
       "message": "feat test deberia mostrar 30-40 cuando jugador 1 anoto 2 puntos y jugador 2 anoto 3 puntos",
-      "url": "https://github.com/shalure10lure/PracticaTenis/commit/HEAD"
+      "url": "https://github.com/shalure10lure/PracticaTenis/commit/3650a5553c5600d0b440d36e7175cb46b0f53282"
     },
     "stats": {
       "total": 9,
@@ -300,6 +300,25 @@
     },
     "coverage": 100,
     "test_count": 16,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "shalure10lure",
+    "commit": {
+      "date": "2026-09-03T11:28:32.000Z",
+      "message": "feat test deberia mostrar deuce cuando jugador 1 anoto 3 puntos y jugador 2 anoto 3 puntos",
+      "url": "https://github.com/shalure10lure/PracticaTenis/commit/HEAD"
+    },
+    "stats": {
+      "total": 9,
+      "additions": 9,
+      "deletions": 0,
+      "date": "2026-09-03"
+    },
+    "coverage": 100,
+    "test_count": 17,
     "failed_tests": 0,
     "conclusion": "success"
   }

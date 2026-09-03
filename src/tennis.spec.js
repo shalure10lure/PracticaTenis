@@ -75,4 +75,10 @@ describe("Tennis",()=>{
         tennis.jugador2 = 3;
         expect(tennis.obtenerScore()).toBe("30 - 40");
     });
+    it("deberia mostrar deuce cuando jugador 1 anoto 3 puntos y jugador 2 anoto 3 puntos",()=>{
+        let tennis = new Tennis();
+        tennis.jugador1 = 3;
+        tennis.jugador2 = 3;
+        expect(tennis.obtenerScore()).toBe("Deuce");
+    });
 });
