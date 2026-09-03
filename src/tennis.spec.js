@@ -93,4 +93,16 @@ describe("Tennis",()=>{
         tennis.jugador2 = 4;
         expect(tennis.obtenerScore()).toBe("Advantage Player 2");
     });
+    it("deberia mostrar Game for player 1 cuando jugador 1 anoto 5 puntos y jugador 2 anoto 3 puntos",()=>{
+        let tennis = new Tennis();
+        tennis.jugador1 = 5;
+        tennis.jugador2 = 3;
+        expect(tennis.obtenerScore()).toBe("Game for player 1");
+    });
+    it("deberia mostrar Game for player 2 cuando jugador 1 anoto 3 puntos y jugador 2 anoto 5 puntos",()=>{
+        let tennis = new Tennis();
+        tennis.jugador1 = 3;
+        tennis.jugador2 = 5;
+        expect(tennis.obtenerScore()).toBe("Game for player 2");
+    });
 });
