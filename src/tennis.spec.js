@@ -105,4 +105,16 @@ describe("Tennis",()=>{
         tennis.jugador2 = 5;
         expect(tennis.obtenerScore()).toBe("Game for player 2");
     });
+    it("deberia mostrar 15 - 15 cuando ambos jugadores anotaron 1 punto", () => { 
+        let tennis = new Tennis(); 
+        tennis.jugador1 = 1; 
+        tennis.jugador2 = 1; 
+        expect(tennis.obtenerScore()).toBe("15 - 15"); 
+    });
+    it("deberia mostrar Advantage Player 2 cuando jugador 1 anoto 4 puntos y jugador 2 anoto 5 puntos", () => { 
+        let tennis = new Tennis(); 
+        tennis.jugador1 = 4; 
+        tennis.jugador2 = 5; 
+        expect(tennis.obtenerScore()).toBe("Advantage Player 2"); 
+    });
 });

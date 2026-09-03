@@ -136,9 +136,15 @@
     "testId": 19
   },
   {
-    "commitId": "HEAD",
+    "commitId": "e35fe65a52e4309a45b5421c26912f7515f7e7df",
     "commitName": "feat: añadiendo la parte de vistas",
     "commitTimestamp": 1788438621348,
     "testId": 20
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: deberia mostrar Advantage Player 2 cuando jugador 1 anoto 4 puntos y jugador 2 anoto 5 puntos",
+    "commitTimestamp": 1788438929145,
+    "testId": 21
   }
 ]
