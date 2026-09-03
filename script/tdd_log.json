@@ -82,9 +82,15 @@
     "testId": 10
   },
   {
-    "commitId": "HEAD",
+    "commitId": "cc02d2dbac1408c41712345d99f21364c3c341f1",
     "commitName": "feat testdeberia mostrar 15-30 cuando jugador 1 anoto 1 punto y jugador 2 anoto 2 puntos",
     "commitTimestamp": 1788434629080,
     "testId": 11
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat test deberia mostrar 30-15 cuando jugador 1 anoto 2 puntos y jugador 2 anoto 1 punto",
+    "commitTimestamp": 1788434692175,
+    "testId": 12
   }
 ]
