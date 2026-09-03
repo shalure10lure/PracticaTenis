@@ -5,11 +5,15 @@ class Tennis{
     }
     obtenerScore(){
         //si jugador 1 anota 
+
         if(this.jugador1===2 && this.jugador2===1){
             return "30 - 15";
         }
         if(this.jugador1===1 && this.jugador2===2){
             return "15 - 30";
+        }
+        if(this.jugador1===2 && this.jugador2===2){
+            return "30 - 30";
         }
         if(this.jugador1===1){
             return "15 - Love";
