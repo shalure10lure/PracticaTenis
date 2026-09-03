@@ -64,9 +64,15 @@
     "testId": 7
   },
   {
-    "commitId": "HEAD",
+    "commitId": "32d921ba59d1c7801d6477de2c39d35134812cb3",
     "commitName": "feat test deberia mostrar Game for player 1 cuando jugador 1 anoto 4 puntos",
     "commitTimestamp": 1788434382800,
     "testId": 8
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat test deberia mostrar Game for player 1 cuando jugador 1 anoto 4 puntos",
+    "commitTimestamp": 1788434418298,
+    "testId": 9
   }
 ]

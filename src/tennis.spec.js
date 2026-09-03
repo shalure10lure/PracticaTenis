@@ -40,4 +40,9 @@ describe("Tennis",()=>{
         tennis.jugador1 = 4;
         expect(tennis.obtenerScore()).toBe("Game for player 1");
     });
+    it("deberia mostrar Game for player 2 cuando jugador 2 anoto 4 puntos",()=>{
+        let tennis = new Tennis();
+        tennis.jugador2 = 4;
+        expect(tennis.obtenerScore()).toBe("Game for player 2");
+    });
 });
