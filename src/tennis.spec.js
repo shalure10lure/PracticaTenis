@@ -25,4 +25,9 @@ describe("Tennis",()=>{
         tennis.jugador2 = 2;
         expect(tennis.obtenerScore()).toBe("Love - 30");
     });
+    it("deberia mostrar love-40 cuando jugador 2 anoto 3 puntos",()=>{
+        let tennis = new Tennis();
+        tennis.jugador2 = 3;
+        expect(tennis.obtenerScore()).toBe("Love - 40");
+    });
 });
